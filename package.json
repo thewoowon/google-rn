@@ -1,0 +1,78 @@
+{
+  "name": "@openauth/google-rn",
+  "version": "0.1.0",
+  "description": "Lightweight, secure, and 100% free Google OAuth2 library for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": {
+    "name": "OpenAuth Team",
+    "email": "contact@openauth.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/openauth/google-rn#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openauth/google-rn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openauth/google-rn/issues"
+  },
+  "keywords": [
+    "react-native",
+    "google-signin",
+    "google-auth",
+    "oauth2",
+    "oauth",
+    "authentication",
+    "auth",
+    "open-source",
+    "google-oauth",
+    "ios",
+    "android",
+    "typescript",
+    "social-login",
+    "sign-in"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "android",
+    "ios",
+    "*.podspec",
+    "README.md",
+    "INSTALLATION.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "yarn build",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "yarn clean && yarn build && yarn typecheck",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.0",
+    "react-native-get-random-values": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.3.0"
+  },
+  "react-native": "src/index.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+  

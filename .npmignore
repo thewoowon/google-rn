@@ -1,0 +1,34 @@
+# Development files
+*.ts
+!*.d.ts
+tsconfig.json
+.github
+.vscode
+.idea
+
+# Tests
+__tests__
+__mocks__
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Example
+example
+
+# Build artifacts
+*.tsbuildinfo
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Source maps (keep .d.ts.map for source navigation)
+# *.map
+
+# Git
+.git
+.gitignore
+.gitattributes
