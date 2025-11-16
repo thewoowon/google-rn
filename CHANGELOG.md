@@ -5,10 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2025-01-15
+
+### Changed
+- **BREAKING**: Renamed package from `@openauth/google-rn` to `@thewoowon/google-rn`
+- Renamed Android package from `com.openauth.googlern` to `com.thewoowon.googlern`
+- Renamed iOS podspec from `openauth-google-rn` to `thewoowon-google-rn`
+- Updated all documentation and example files with new package name
+- Updated GitHub repository URLs from `openauth/google-rn` to `thewoowon/google-rn`
+
+### Migration Guide
+If upgrading from 0.1.0:
+1. Update your `package.json`: `@openauth/google-rn` → `@thewoowon/google-rn`
+2. Update imports: `import { useGoogleAuth } from '@thewoowon/google-rn'`
+3. Android: Update MainApplication import to `com.thewoowon.googlern.GoogleAuthPackage`
+4. iOS: Run `pod install` to update to new podspec name
+
 ## [0.1.0] - 2024-11-09
 
 ### Added
-- Initial release of `@openauth/google-rn`
+- Initial release of `@thewoowon/google-rn`
 - Google OAuth 2.0 authentication for React Native
 - `useGoogleAuth` hook with complete authentication flow
 - iOS native module with ASWebAuthenticationSession

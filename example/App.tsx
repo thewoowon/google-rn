@@ -10,7 +10,7 @@ import {
   ActivityIndicator,
   Alert,
 } from 'react-native';
-import { useGoogleAuth } from '@openauth/google-rn';
+import { useGoogleAuth } from '@thewoowon/google-rn';
 
 export default function App() {
   const { user, loading, signIn, signOut, isAuthenticated, getAccessToken } =

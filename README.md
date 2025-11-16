@@ -1,10 +1,10 @@
-# @openauth/google-rn
+# @thewoowon/google-rn
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/@openauth/google-rn.svg)](https://www.npmjs.com/package/@openauth/google-rn)
-[![license](https://img.shields.io/npm/l/@openauth/google-rn.svg)](https://github.com/openauth/google-rn/blob/main/LICENSE)
-[![downloads](https://img.shields.io/npm/dm/@openauth/google-rn.svg)](https://www.npmjs.com/package/@openauth/google-rn)
+[![npm version](https://img.shields.io/npm/v/@thewoowon/google-rn.svg)](https://www.npmjs.com/package/@thewoowon/google-rn)
+[![license](https://img.shields.io/npm/l/@thewoowon/google-rn.svg)](https://github.com/thewoowon/google-rn/blob/main/LICENSE)
+[![downloads](https://img.shields.io/npm/dm/@thewoowon/google-rn.svg)](https://www.npmjs.com/package/@thewoowon/google-rn)
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue.svg)](https://www.typescriptlang.org/)
 
 **Lightweight, secure, and 100% free Google OAuth2 library for React Native**
@@ -29,9 +29,9 @@
 ## Installation
 
 ```bash
-yarn add @openauth/google-rn
+yarn add @thewoowon/google-rn
 # or
-npm install @openauth/google-rn
+npm install @thewoowon/google-rn
 ```
 
 ### Dependencies

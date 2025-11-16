@@ -1,4 +1,4 @@
-// Main entry point for @openauth/google-rn
+// Main entry point for @thewoowon/google-rn
 import { NativeModules } from 'react-native';
 
 // Export hooks

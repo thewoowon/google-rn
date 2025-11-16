@@ -1,4 +1,4 @@
-# Contributing to @openauth/google-rn
+# Contributing to @thewoowon/google-rn
 
 Thank you for your interest in contributing! We welcome contributions from everyone.
 
@@ -147,9 +147,9 @@ We love new ideas! Please:
 
 ## Questions?
 
-- Open a [GitHub Discussion](https://github.com/openauth/google-rn/discussions)
+- Open a [GitHub Discussion](https://github.com/thewoowon/google-rn/discussions)
 - Check the [documentation](./README.md)
-- Look at [existing issues](https://github.com/openauth/google-rn/issues)
+- Look at [existing issues](https://github.com/thewoowon/google-rn/issues)
 
 ## License
 

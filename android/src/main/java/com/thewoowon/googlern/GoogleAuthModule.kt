@@ -1,4 +1,4 @@
-package com.openauth.googlern
+package com.thewoowon.googlern
 
 import android.net.Uri
 import androidx.browser.customtabs.CustomTabsIntent

@@ -1,6 +1,6 @@
 # Installation Guide
 
-Complete installation guide for `@openauth/google-rn`.
+Complete installation guide for `@thewoowon/google-rn`.
 
 ## Prerequisites
 
@@ -15,10 +15,10 @@ Complete installation guide for `@openauth/google-rn`.
 
 ```bash
 # Using yarn
-yarn add @openauth/google-rn
+yarn add @thewoowon/google-rn
 
 # Using npm
-npm install @openauth/google-rn
+npm install @thewoowon/google-rn
 ```
 
 ### 2. Install peer dependencies
@@ -100,7 +100,7 @@ Add the following to your `android/app/src/main/AndroidManifest.xml`:
 In `android/app/src/main/java/.../MainApplication.kt` or `.java`, add the package:
 
 ```kotlin
-import com.openauth.googlern.GoogleAuthPackage
+import com.thewoowon.googlern.GoogleAuthPackage
 
 override fun getPackages(): List<ReactPackage> =
     PackageList(this).packages.apply {
