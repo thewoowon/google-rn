@@ -1,9 +1,9 @@
 //
 //  GoogleAuth-Bridging-Header.h
-//  OpenAuthGoogleRN
+//  thewoowonGoogleRN
 //
-//  Created by OpenAuth Team
-//  Copyright © 2024. All rights reserved.
+//  Created by thewoowon
+//  Copyright ï¿½ 2024. All rights reserved.
 //
 
 #import <React/RCTBridgeModule.h>

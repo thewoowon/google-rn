@@ -1,8 +1,8 @@
 //
 //  GoogleAuthModule.m
-//  OpenAuthGoogleRN
+//  thewoowonGoogleRN
 //
-//  Created by OpenAuth Team
+//  Created by thewoowon
 //  Copyright © 2024. All rights reserved.
 //
 

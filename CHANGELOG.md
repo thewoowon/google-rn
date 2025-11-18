@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1] - 2025-01-15
 
 ### Changed
-- **BREAKING**: Renamed package from `@openauth/google-rn` to `@thewoowon/google-rn`
+- **BREAKING**: Renamed package from `@thewoowon/google-rn` to `@thewoowon/google-rn`
 - Renamed Android package from `com.openauth.googlern` to `com.thewoowon.googlern`
 - Renamed iOS podspec from `openauth-google-rn` to `thewoowon-google-rn`
 - Updated all documentation and example files with new package name
@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Migration Guide
 If upgrading from 0.1.0:
-1. Update your `package.json`: `@openauth/google-rn` → `@thewoowon/google-rn`
+1. Update your `package.json`: `@thewoowon/google-rn` → `@thewoowon/google-rn`
 2. Update imports: `import { useGoogleAuth } from '@thewoowon/google-rn'`
 3. Android: Update MainApplication import to `com.thewoowon.googlern.GoogleAuthPackage`
 4. iOS: Run `pod install` to update to new podspec name

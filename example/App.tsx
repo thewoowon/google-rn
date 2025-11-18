@@ -64,7 +64,7 @@ export default function App() {
       <StatusBar barStyle="dark-content" />
       <View style={styles.content}>
         <View style={styles.header}>
-          <Text style={styles.title}>@openauth/google-rn</Text>
+          <Text style={styles.title}>@thewoowon/google-rn</Text>
           <Text style={styles.subtitle}>Google OAuth Example</Text>
         </View>
 
@@ -137,7 +137,7 @@ export default function App() {
 
         <View style={styles.footer}>
           <Text style={styles.footerText}>
-            Powered by @openauth/google-rn
+            Powered by @thewoowon/google-rn
           </Text>
           <Text style={styles.footerSubtext}>
             Free & Open Source React Native Google OAuth

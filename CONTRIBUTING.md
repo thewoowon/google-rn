@@ -120,7 +120,7 @@ Located in `ios/` directory:
 
 ### Android (Kotlin)
 
-Located in `android/src/main/java/com/openauth/googlern/`:
+Located in `android/src/main/java/com/thewoowon/googlern/`:
 - `GoogleAuthModule.kt` - Main module implementation
 - `GoogleAuthPackage.kt` - Package registration
 

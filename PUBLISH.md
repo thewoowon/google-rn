@@ -1,11 +1,11 @@
-# Publishing Guide for @openauth/google-rn
+# Publishing Guide for @thewoowon/google-rn
 
 This guide explains how to publish new versions of the package to npm.
 
 ## Prerequisites
 
 1. **npm account**: You need an npm account with publish permissions
-2. **Access**: You must be added as a maintainer of `@openauth/google-rn`
+2. **Access**: You must be added as a maintainer of `@thewoowon/google-rn`
 3. **Authentication**: Run `npm login` before publishing
 
 ## Pre-publish Checklist
@@ -101,7 +101,7 @@ npm publish --access public
 
 ### 7. Create GitHub Release
 
-1. Go to https://github.com/openauth/google-rn/releases
+1. Go to https://github.com/thewoowon/google-rn/releases
 2. Click "Draft a new release"
 3. Choose the tag you created (v0.2.0)
 4. Title: "Release v0.2.0"
@@ -129,13 +129,13 @@ Add npm token to repository secrets:
 ### "You do not have permission to publish"
 
 - Ensure you're logged in: `npm whoami`
-- Check if you're a maintainer: `npm owner ls @openauth/google-rn`
-- Contact package owner to add you: `npm owner add USERNAME @openauth/google-rn`
+- Check if you're a maintainer: `npm owner ls @thewoowon/google-rn`
+- Contact package owner to add you: `npm owner add USERNAME @thewoowon/google-rn`
 
 ### "Version already exists"
 
 - Update version in package.json to a new version
-- Check existing versions: `npm view @openauth/google-rn versions`
+- Check existing versions: `npm view @thewoowon/google-rn versions`
 
 ### Build fails
 
@@ -147,12 +147,12 @@ Add npm token to repository secrets:
 
 After publishing:
 
-1. Verify package is live: https://www.npmjs.com/package/@openauth/google-rn
+1. Verify package is live: https://www.npmjs.com/package/@thewoowon/google-rn
 2. Test installation in a fresh project:
    ```bash
    npx react-native init TestApp
    cd TestApp
-   yarn add @openauth/google-rn
+   yarn add @thewoowon/google-rn
    ```
 3. Update documentation if needed
 4. Announce the release on relevant channels

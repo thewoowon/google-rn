@@ -49,7 +49,7 @@ yarn add @react-native-async-storage/async-storage react-native-get-random-value
 ```tsx
 import React from 'react';
 import { View, Button, Text } from 'react-native';
-import { useGoogleAuth } from '@openauth/google-rn';
+import { useGoogleAuth } from '@thewoowon/google-rn';
 
 function App() {
   const { user, loading, signIn, signOut, isAuthenticated } = useGoogleAuth();
@@ -78,7 +78,7 @@ export default App;
 ### Getting Access Token
 
 ```tsx
-import { useGoogleAuth } from '@openauth/google-rn';
+import { useGoogleAuth } from '@thewoowon/google-rn';
 
 function MyComponent() {
   const { getAccessToken } = useGoogleAuth();
@@ -151,7 +151,7 @@ import {
   TokenManager,
   SecureStorage,
   generatePKCE,
-} from '@openauth/google-rn';
+} from '@thewoowon/google-rn';
 
 // Token management
 await TokenManager.save(token);
@@ -224,7 +224,7 @@ Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.m
 
 ## 📄 License
 
-MIT © OpenAuth Team
+MIT © thewoowon
 
 ## 🙏 Acknowledgments
 
@@ -235,16 +235,16 @@ MIT © OpenAuth Team
 
 ## 💬 Support
 
-- 🐛 [Report an Issue](https://github.com/openauth/google-rn/issues)
-- 💡 [Request a Feature](https://github.com/openauth/google-rn/issues)
+- 🐛 [Report an Issue](https://github.com/thewoowon/google-rn/issues)
+- 💡 [Request a Feature](https://github.com/thewoowon/google-rn/issues)
 - 📖 [View Documentation](./INSTALLATION.md)
 
 ---
 
 <div align="center">
 
-Made with ❤️ by OpenAuth Team
+Made with ❤️ by thewoowon
 
-**[⭐ Star us on GitHub](https://github.com/openauth/google-rn)**
+**[⭐ Star us on GitHub](https://github.com/thewoowon/google-rn)**
 
 </div>
